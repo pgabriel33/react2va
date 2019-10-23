@@ -1,0 +1,43 @@
+ /* Definindo a fonte e a imagem de fundo do body */
+ body{
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+  
+    background: #fff no-repeat center center fixed;
+    background-size: cover;
+  
+    -webkit-background-size: cover; /* SAFARI / CHROME */
+    -moz-background-size: cover; /* FIREFOX */
+    -ms-background-size: cover; /* IE */
+    -o-background-size: cover; /* OPERA */
+  }
+  /*Estrutura da tela de login*/
+  .wrapper {
+      display: flex;
+      align-items: center;
+      flex-direction: column; 
+      justify-content: center;
+      width: 100%;
+      min-height: 100%;
+      padding: 20px;
+    }
+  
+  #formCadUsuario {
+      -webkit-border-radius: 10px 10px 10px 10px;
+      border-radius: 10px 10px 10px 10px;
+      background: #fff;
+      padding: 30px;
+      width: 90%;
+      max-width: 800px;
+      position: relative;
+      padding: 20px;
+      -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+      box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    }
+  
+    #formHead{
+      text-align: center;
+      font-size: 20px;
+    }
+  
+   
