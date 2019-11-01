@@ -87,7 +87,7 @@ export class CadastraProdutos extends Component {
                     </div>
                     <button  className="btn btn-primary">Enviar  <a href="#"></a></button>
                     <button type="reset" className="btn btn-warning">Limpar</button>
-                    
+                  
                 </div>
             </form>
 

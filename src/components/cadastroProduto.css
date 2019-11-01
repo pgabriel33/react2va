@@ -70,12 +70,6 @@ input[type=number] {
     border-radius:5px;
     overflow:hidden;
 }
-.btn{
-    margin:0 0 10px 0;
-    align-content: flex-start;
-    
-}
-
 
 #inputs value{
     color: #000000;
