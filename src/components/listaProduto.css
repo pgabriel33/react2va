@@ -17,6 +17,11 @@ div.container{
     
 }
 
+#Nomeproduto{
+    text-align: left;
+    padding-left: 10px;
+}
+
 #user {
     width:18%;
     height: 20px;
@@ -55,4 +60,8 @@ input[type=search]{
     max-width: 450px;
     position: relative;
     padding: 25px;
+}
+
+.form-group label{
+    color: black;
 }
