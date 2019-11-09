@@ -67,9 +67,9 @@ export class cadastrousuario extends Component {
                    <input type="text" className="form-control" id="inputCelular" placeholder="(00) 00000-0000"/>
                  </div>
                </div>
-               <a href="./login">
+               <form action="./login" method="get">
                    <button className="btn btn-primary">Cadastre-se</button>
-            </a>
+            </form>
          </form>
        </div>
     </div>

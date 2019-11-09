@@ -14,7 +14,7 @@ export class ListarProdutos extends Component {
                                    <img src="../img/male.png" id="user" />
                               </li>
                               <li className="nav-item text-nowrap">
-                                   <a className="nav-link" href="./inicio">Sair</a>
+                                   <a className="nav-link" href="./">Sair</a>
                               </li>
                          </ul>
                     </nav>
@@ -29,7 +29,7 @@ export class ListarProdutos extends Component {
                                              </a>
                                         </li>
                                         <li className="nav-item">
-                                             <a className="nav-link" style={{ fontSize: '18px;' }} href="./ListarProdutos">
+                                             <a className="nav-link" style={{ fontSize: '18px' }} href="./ListarProdutos">
                                                   <span data-feather="file"></span>
                                                   Produtos
                               </a>
@@ -63,7 +63,7 @@ export class ListarProdutos extends Component {
                                              <th scope="col">Cor</th>
                                              <th scope="col">Tamanho em cm</th>
                                              <th scope="col">Preço em R$</th>
-                                             <th scope="col">Alterar/Remover</th>
+                                             <th scope="col">Ação</th>
                                         </tr>
                                    </thead>
                                    <tbody>

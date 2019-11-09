@@ -1,7 +1,37 @@
 import React, { Component } from 'react';
 import './inicio.css';
+import produtos from './produtos';
+import HomeCard from './HomeCard';
 
 export class inicio extends Component {
+    data = [
+        {
+            title: "pedra 1",
+            price: '50',
+            image: 'pedra1.jpeg'
+        },
+        {
+            title: "pedra 2",
+            price: '100',
+            image: 'pedra2.jpeg'
+        },
+        {
+            title: "pedra 3",
+            price: '200',
+            image: 'pedra3.jpeg'
+        },
+        {
+            title: "pedra 4",
+            price: '300',
+            image: 'pedra4.jpeg'
+        },
+        {
+            title: "pedra 5",
+            price: '700',
+            image: 'pedra5.jpeg'
+        }
+    ];
+
     render() {
         return (
             <div>
@@ -119,157 +149,10 @@ export class inicio extends Component {
                             <div className="col-md-12">
                                 <div className="col-md-12">
                                     <div className="row">
-                                        <div className="col-sm-2">
-                                            <ul type="none">
-                                                <div>
-                                                    <div className="product-imagem">
-                                                        <div className="place-container">
-                                                            <li className="li-produto"><a href="#"><img className="div-produto"
-                                                                src="/img/pedra1.jpeg" width="200" height="200"
-                                                                style={{ margin: '0 0 0 0px' }} /></a>
-
-                                                                <div className="detail-product">
-                                                                    <div className="item-title">
-                                                                        <a>Pedra1</a>
-                                                                    </div>
-                                                                    <div className="item-price-row">
-                                                                        <span className="price-current">R$ 300</span>
-                                                                    </div>
-                                                                    <div className="item-shipping-wrap">
-                                                                        <span className="shipping-value">Frete Grátis</span>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </ul>
-                                        </div>
-                                        <div className="col-sm-2">
-                                            <ul type="none">
-                                                <div>
-                                                    <div className="product-imagem">
-                                                        <div className="place-container">
-                                                            <li className="li-produto"><a href="#"><img className="div-produto"
-                                                                src="/img/pedra2.jpeg" width="200" height="200"
-                                                                style={{ margin: '0 0 0 30px' }} /></a>
-
-                                                                <div className="detail-product">
-                                                                    <div className="item-title" style={{
-                                                                        margin: '0 0 0 30px'
-                                                                    }}>
-                                                                        <a>Pedra2</a>
-                                                                    </div>
-                                                                    <div className="item-price-row" style={{
-                                                                        margin: '0 0 0 30px'
-                                                                    }}>
-                                                                        <span className="price-current">R$ 237</span>
-                                                                    </div>
-                                                                    <div className="item-shipping-wrap" style={{
-                                                                        margin: '0 0 0 30px'
-                                                                    }}>
-                                                                        <span className="shipping-value">Frete Grátis</span>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </ul>
-                                        </div>
-                                        <div className="col-sm-2">
-                                            <ul type="none">
-                                                <div>
-                                                    <div className="product-imagem">
-                                                        <div className="place-container">
-                                                            <li className="li-produto"><a href="#"><img className="div-produto"
-                                                                src="/img/pedra3.jpeg" width="200" height="200"
-                                                                style={{ margin: '0 0 0 60px' }} /></a>
-
-                                                                <div className="detail-product">
-                                                                    <div className="item-title" style={{
-                                                                        margin: '0 0 0 60px'
-                                                                    }}>
-                                                                        <a>Pedra3</a>
-                                                                    </div>
-                                                                    <div className="item-price-row" style={{
-                                                                        margin: '0 0 0 60px'
-                                                                    }}>
-                                                                        <span className="price-current">R$ 119</span>
-                                                                    </div>
-                                                                    <div className="item-shipping-wrap" style={{
-                                                                        margin: '0 0 0 60px'
-                                                                    }}>
-                                                                        <span className="shipping-value">Frete Grátis</span>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </ul>
-                                        </div>
-                                        <div className="col-sm-2">
-                                            <ul type="none">
-                                                <div>
-                                                    <div className="product-imagem">
-                                                        <div className="place-container">
-                                                            <li className="li-produto"><a href="#"><img className="div-produto"
-                                                                src="/img/pedra4.jpeg" width="200" height="200"
-                                                                style={{ margin: '0 0 0 90px' }} /></a>
-
-                                                                <div className="detail-product">
-                                                                    <div className="item-title" style={{
-                                                                        margin: '0 0 0 90px'
-                                                                    }}>
-                                                                        <a>Pedra4</a>
-                                                                    </div>
-                                                                    <div className="item-price-row" style=
-                                                                        {{ margin: '0 0 0 90px' }}>
-                                                                        <span className="price-current">R$ 98</span>
-                                                                    </div>
-                                                                    <div className="item-shipping-wrap" style=
-                                                                        {{ margin: '0 0 0 90px' }}>
-                                                                        <span className="shipping-value">Frete Grátis</span>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </ul>
-                                        </div>
-                                        <div className="col-sm-2">
-                                            <ul type="none">
-                                                <div>
-                                                    <div className="product-imagem">
-                                                        <div className="place-container">
-                                                            <li className="li-produto"><a href="#"><img className="div-produto"
-                                                                src="/img/pedra5.jpeg" width="200" height="200"
-                                                                style={{ margin: '0 0 0 120px' }} /></a>
-
-                                                                <div className="detail-product">
-                                                                    <div className="item-title" style={{
-                                                                        margin: '0 0 0 120px'
-                                                                    }}>
-                                                                        <a>Pedra5</a>
-                                                                    </div>
-                                                                    <div className="item-price-row" style=
-                                                                        {{ margin: '0 0 0 120px' }}>
-                                                                        <span className="price-current">R$ 443</span>
-                                                                    </div>
-                                                                    <div className="item-shipping-wrap" style={{
-                                                                        margin: '0 0 0 120px'
-                                                                    }}>
-                                                                        <span className="shipping-value">Frete Grátis</span>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </ul>
-                                        </div>
+                        
+                                    {this.data.map(card => <HomeCard tittle={card.title} image={card.image} price={card.price} />)}
+         
+                                        
                                     </div>
 
                                 </div>
