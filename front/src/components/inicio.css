@@ -1,0 +1,145 @@
+
+.header-area{
+    background-color: gray;
+}
+
+.header-area a{
+    color: rgb(41, 37, 37);
+}
+
+
+
+.nav-item{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.nav-item-1{
+    padding: 20px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.nav-item a{
+    float:left;
+}
+.container{
+    margin-left: 300px;
+    margin-right: auto;
+}
+
+.header-right{
+    margin-left: 10px;
+}
+
+.shopping-item {
+    border: 1px solid #ddd;
+    float: right;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-right: 50px;
+    padding: 10px;
+    position: relative;
+}
+
+.shopping-item a{
+    color: #666;
+}
+
+.mainmenu-area {
+    background: none repeat scroll 0 0 #fbfbfb;
+    font-family: "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 999;
+}
+
+.carousel-area{
+    padding: 40px 0 40px;
+    background:rgb(93, 236, 93);
+}
+
+.carousel-inner img{
+    width: 10px;
+    height: 600px;
+}
+.header-area img{
+    width: 80px;
+    margin: 0px 0px 0px 10px;
+}
+
+.single-promo{
+    font-size: 25px;
+    font-weight: 200;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.promo1{
+    background: #5a88ca;
+}
+
+.footer-bottom-area{
+    background: none repeat scroll 0 0 #000000;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.promo2{
+    background: #ffd900;
+}
+
+.promo3{
+    background: #fa8072;
+}
+
+.promo4{
+    background: #4abebd;
+}
+
+.promo-area{
+    padding: 40px 0 40px;
+    color: #fff;
+}
+
+.section-title{
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 50px;
+    color: #007bff;
+    text-align: center;
+}
+
+.product-hover{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.div-produto {
+    border: 1px solid lightgray;
+}
+
+.li-produto {
+    display: inline-block;
+    margin: 0 10px 15px 0;
+}
+
+.footer-bottom-icon{
+    font-size: 30px;
+    text-align: right;
+}
+
+.fab{
+    font-size: inherit;
+    width: 20px;
+    display: inline-block;
+    text-rendering: auto;
+    font: normal normal normal 14px/1 FontAwesome;
+}
+

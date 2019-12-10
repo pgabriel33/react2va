@@ -1,0 +1,71 @@
+*{ margin:0; padding:0;}
+body{ font:100% normal Arial, Helvetica, sans-serif;
+    background:#ffffff;
+    background-size: cover;
+
+-webkit-background-size: cover; /* SAFARI / CHROME */
+-moz-background-size: cover; /* FIREFOX */
+-ms-background-size: cover; /* IE */
+-o-background-size: cover; /* OPERA */
+}
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color:#0000;
+  }
+
+div.container{
+    background: #ffffff;
+    position: relative;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    width:auto;
+    height: auto; 
+}
+
+#user {
+    width:18%;
+    height: 20px;
+    margin-right:-400px;
+}
+
+#logo{
+    width:70%;
+    height: 60px;
+    margin-left: 90px;
+    margin-right: auto;
+    
+   
+}
+div.container h1{
+    text-align: left;
+    background: #ffffff;
+}
+
+
+div.container table{
+    height:auto;
+    text-align: center;
+
+}
+
+.card{
+    margin-right: 46px;
+    margin-left:40px;
+}
+
+.card-text{
+    font-size: 28px;
+}
+
+input[type=search]{
+    width: 40%;
+    float:left;
+    margin:0 0 10px 0;
+}
